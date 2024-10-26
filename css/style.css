@@ -1,0 +1,717 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Work Sans;
+  text-decoration: none;
+  list-style: none;
+}
+body {
+  background: hsla(0, 0%, 17%, 1);
+}
+h1,
+h2,
+p {
+  color: hsla(0, 0%, 100%, 1);
+}
+button {
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: hsla(0, 0%, 100%, 1);
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin-inline: auto;
+}
+/*! ---------------------------------- часть header  ---------------------------------- */
+#header {
+  padding-block: 40px;
+  .container {
+    max-width: 1350px;
+    width: 100%;
+    margin-inline: auto;
+  }
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.burger {
+  display: none;
+}
+.header-logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header-logo img:nth-child(1) {
+  max-width: 32px;
+  width: 100%;
+  padding-bottom: 5px;
+}
+.header-logo img:nth-child(2) {
+  max-width: 200px;
+  width: 100%;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+nav a {
+  color: hsla(0, 0%, 100%, 1);
+  font-size: 16px;
+  font-weight: 600;
+}
+nav button {
+  width: 152px;
+  height: 50px;
+  background: hsla(266, 100%, 67%, 1);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+/*! ---------------------------------- часть discover ---------------------------------- */
+#discover {
+  padding: 50px 0 100px 0;
+}
+.discover {
+  display: flex;
+  justify-content: space-between;
+}
+.discover-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.discover-text h1 {
+  width: 420px;
+  font-size: 67px;
+  font-weight: 600;
+}
+.discover-text p {
+  width: 480px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 35px;
+}
+.discover button {
+  width: 224px;
+  height: 64px;
+  background: hsla(266, 100%, 67%, 1);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  img {
+    width: 20px;
+  }
+}
+.auctions {
+  display: flex;
+  gap: 65px;
+  width: 440px;
+}
+.auctions ul li {
+  font-size: 24px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 1);
+}
+.auctions ul li:first-child {
+  font-size: 28px;
+  font-weight: 700;
+  font-family: Space Mono;
+}
+.discover-image {
+  max-width: 510px;
+  width: 100%;
+  max-height: 510px;
+  height: 100%;
+  background: hsla(0, 0%, 23%, 1);
+  border-radius: 20px;
+  img {
+    max-height: 401px;
+    height: 100%;
+    max-width: 510px;
+    width: 100%;
+  }
+}
+.space {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 30px;
+}
+.space h1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.space-avatar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  img {
+    width: 24px;
+  }
+}
+.space-avatar h2 {
+  font-size: 16px;
+  font-weight: 400;
+}
+/*! ---------------------------------- часть collection ---------------------------------- */
+#collection {
+  padding-block: 90px;
+}
+.collection-title {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  gap: 15px;
+  h1 {
+    font-size: 38px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 3px;
+  }
+}
+.collection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.collection .box {
+  width: 330px;
+  height: 525px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  .mrfox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    p {
+      font-size: 16px;
+      font-weight: 300;
+    }
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .disco {
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 20px;
+    }
+    button {
+      width: 100px;
+      height: 100px;
+      background: hsla(266, 100%, 67%, 1);
+      color: hsla(0, 0%, 100%, 1);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      font-family: Space Mono;
+      font-size: 22px;
+      font-weight: 700;
+    }
+  }
+}
+/*! ---------------------------------- часть creator ---------------------------------- */
+#creator {
+  padding-block: 50px;
+}
+.creator-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-block: 60px;
+  button {
+    width: 247px;
+    height: 60px;
+    background: none;
+    border: 2px solid hsla(266, 100%, 67%, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+.creator-text {
+  h1 {
+    font-size: 38px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-top: 15px;
+  }
+}
+.creator {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+}
+.creator .box {
+  width: 240px;
+  height: 238px;
+  border-radius: 20px;
+  background: hsla(0, 0%, 23%, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  position: relative;
+}
+.creator .box {
+  img {
+    max-width: 110px;
+    width: 100%;
+  }
+}
+.creator .box {
+  h1 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+}
+.creator .box {
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    color: hsla(60, 0%, 52%, 1);
+    span {
+      font-size: 16px;
+      font-weight: 400;
+      color: hsla(0, 0%, 100%, 1);
+      font-family: Space Mono;
+      padding: 0 7px;
+    }
+  }
+}
+.creator .box {
+  h3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: hsla(0, 0%, 17%, 1);
+    color: hsla(60, 0%, 52%, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Space Mono;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 17px;
+    left: 17px;
+  }
+}
+.cretor-box {
+  text-align: center;
+}
+/*! ---------------------------------- часть browse ---------------------------------- */
+#browse {
+  padding-block: 50px;
+}
+.browse-title {
+  padding-block: 50px;
+  h1 {
+    font-size: 38px;
+    font-weight: 600;
+  }
+}
+.browse {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+}
+.browse .box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 240px;
+  height: 316px;
+  background: #3b3b3b;
+  border-radius: 20px;
+  .cate1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 240px;
+    height: 240px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    backdrop-filter: blur(5px);
+    img {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      top: 70px;
+      left: 70px;
+    }
+  }
+}
+.browse .box {
+  img {
+    width: 240px;
+    height: 240px;
+  }
+}
+.browse .box {
+  h1 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 26px 0 26px 30px;
+  }
+}
+.cate1:hover {
+  display: none;
+}
+/*! ---------------------------------- часть explore ---------------------------------- */
+#explore {
+  padding: 50px 0 120px 0;
+}
+.explore-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-block: 60px;
+  button {
+    width: 247px;
+    height: 60px;
+    background: none;
+    border: 2px solid hsla(266, 100%, 67%, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+.explore-text {
+  h1 {
+    font-size: 38px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-top: 15px;
+  }
+}
+.explore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  .box {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 330px;
+    height: 469px;
+    background: hsla(0, 0%, 23%, 1);
+    border-radius: 20px;
+    h1 {
+      font-size: 22px;
+      font-weight: 600;
+      padding: 15px 25px 0 25px;
+    }
+    img {
+      width: 330px;
+      height: 296px;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+    }
+    .moon {
+      display: flex;
+      gap: 15px;
+      padding: 0 25px 10px 25px;
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+      h2 {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Space Mono;
+        padding: none;
+      }
+    }
+  }
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 25px;
+}
+.price ul li:first-child {
+  font-size: 12px;
+  font-weight: 400;
+  color: hsla(60, 0%, 52%, 1);
+  font-family: Space Mono;
+}
+.price ul li {
+  font-size: 16px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 1);
+  font-family: Space Mono;
+  line-height: 28px;
+}
+/*! ---------------------------------- часть magic ---------------------------------- */
+#magic {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  padding-bottom: 70px;
+}
+.magic-back {
+  width: 100%;
+  max-height: 640px;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #a259ff 100%);
+  position: absolute;
+}
+.magic3 .magic4 {
+  position: absolute;
+  width: 100%;
+  max-height: 640px;
+  height: 100%;
+  z-index: -1;
+}
+.magic {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 350px;
+}
+.magic-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  h1 {
+    font-size: 51px;
+    font-weight: 600;
+  }
+  button {
+    width: 198px;
+    height: 60px;
+    border-radius: 20px;
+    background: hsla(0, 0%, 100%, 1);
+    color: hsla(0, 0%, 17%, 1);
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+  }
+  .shroomie {
+    width: 151px;
+    height: 64px;
+    background: hsla(0, 0%, 23%, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    h1 {
+      font-size: 16px;
+      font-weight: 400;
+    }
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
+.auction {
+  width: 295px;
+  height: 144px;
+  border-radius: 20px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  background: hsla(0, 0%, 23%, 0.5);
+  h1 {
+    font-size: 38px;
+    font-weight: 700;
+    font-family: Space Mono;
+  }
+  p {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Space Mono;
+  }
+  ul {
+    display: flex;
+    gap: 60px;
+    li {
+      font-size: 12px;
+      font-weight: 400;
+      font-family: Space Mono;
+      color: hsla(0, 0%, 100%, 1);
+    }
+  }
+}
+.auction ul li:nth-child(2) {
+  padding-left: 22px;
+}
+.auction ul li:nth-child(3) {
+  padding-left: 3px;
+}
+/*! ---------------------------------- часть work ---------------------------------- */
+#work {
+  padding-bottom: 50px;
+}
+.work {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 50px;
+}
+.work-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+.work-title h1 {
+  font-weight: 600;
+  font-size: 38px;
+}
+.work-title p {
+  font-weight: 400;
+  font-size: 22px;
+}
+.work .box {
+  width: 330px;
+  height: 439px;
+  background: hsla(0, 0%, 23%, 1);
+  border-radius: 20px;
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+.work-image {
+  width: 250px;
+  height: 250px;
+  img {
+    max-width: 250px;
+    width: 100%;
+    max-height: 250px;
+    height: 100%;
+  }
+}
+.work .box h1 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+  padding-block: 20px;
+}
+.work .box p {
+  width: 280px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
+/*! ---------------------------------- часть weekly ---------------------------------- */
+.join-box {
+  width: 90%;
+  max-height: 430px;
+  height: 100%;
+  background: hsla(0, 0%, 23%, 1);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 60px;
+  position: relative;
+  img {
+    max-width: 425px;
+    width: 100%;
+    height: 310px;
+    height: 100%;
+  }
+}
+.join-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  h1 {
+    font-size: 38px;
+    font-weight: 600;
+    max-width: 425px;
+    width: 100%;
+    max-height: 92px;
+    height: 100%;
+  }
+  p {
+    font-size: 22px;
+    font-weight: 400;
+    max-width: 425px;
+    width: 100%;
+    max-height: 70px;
+    height: 100%;
+  }
+  input {
+    width: 425px;
+    height: 60px;
+    background: hsla(0, 0%, 100%, 1);
+    border-radius: 20px;
+  }
+  input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: hsla(0, 0%, 17%, 1);
+    padding-left: 20px;
+  }
+  button {
+    width: 211px;
+    height: 60px;
+    background: hsla(266, 100%, 67%, 1);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 284px;
+    left: 930px;
+  }
+}
