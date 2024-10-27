@@ -964,7 +964,7 @@
 @media (max-width: 605px) {
   .creator-title button {
     position: absolute;
-    top: 2797px;
+    top: 4231px;
     width: 457px;
     height: 60px;
     gap: 18px;
@@ -1194,7 +1194,7 @@
     padding-block: 19px;
   }
   .creator-title button {
-    top: 2404px;
+    top: 3690px;
   }
   .browse {
     gap: 10px;
@@ -1983,10 +1983,10 @@
     button {
       width: 170px;
       left: 685px;
-      top: 272px;
+      top: 264px;
       font-size: 14px;
       gap: 10px;
-      height: 50px;
+      height: 58px;
     }
   }
   .join-text input::placeholder {
@@ -2037,10 +2037,10 @@
     button {
       width: 170px;
       left: 596px;
-      top: 238px;
+      top: 233px;
       font-size: 14px;
       gap: 10px;
-      height: 62px;
+      height: 60px;
     }
   }
 }
@@ -2112,7 +2112,7 @@
     button {
       width: 150px;
       left: 513px;
-      top: 198px;
+      top: 184px;
       font-size: 14px;
       gap: 10px;
       height: 62px;
@@ -2143,6 +2143,51 @@
     width: 156px;
     height: 277px;
     padding: 15px 17px;
+  }
+  .join-box {
+    img {
+      max-width: 205px;
+      height: 238px;
+    }
+  }
+  .join-text {
+    h1 {
+      font-size: 25px;
+      max-width: 242px;
+      max-height: 70px;
+    }
+  }
+  .join-text {
+    p {
+      font-size: 14px;
+      max-width: 243px;
+      max-height: 44px;
+    }
+  }
+  .join-text {
+    input {
+      width: 244px;
+      height: 40px;
+    }
+  }
+  .join-text {
+    button {
+      width: 244px;
+      left: 330px;
+      top: 211px;
+      font-size: 14px;
+      gap: 10px;
+      height: 40px;
+    }
+  }
+  .join-box {
+    img {
+      max-width: 283px;
+      height: 225px;
+    }
+  }
+  .join-text {
+    gap: 9px;
   }
 }
 @media (max-width: 710px) {
@@ -2179,6 +2224,45 @@
   #work {
     padding-bottom: 15px;
   }
+  .join-box {
+    padding: 20px 20px;
+  }
+  .join-box {
+    img {
+      max-width: 232px;
+      height: 180px;
+    }
+  }
+  .join-text {
+    h1 {
+      font-size: 22px;
+      max-width: 198px;
+      max-height: 53px;
+    }
+  }
+  .join-text {
+    p {
+      font-size: 12px;
+      max-width: 186px;
+      max-height: 26px;
+    }
+  }
+  .join-text {
+    input {
+      width: 200px;
+      height: 38px;
+    }
+  }
+  .join-text {
+    button {
+      width: 200px;
+      left: 269px;
+      top: 161px;
+      font-size: 14px;
+      gap: 10px;
+      height: 38px;
+    }
+  }
 }
 @media (max-width: 605px) {
   .work .box {
@@ -2213,6 +2297,73 @@
     width: 130px;
     height: 130px;
   }
+  .join-box {
+    flex-direction: column;
+    background: none;
+    padding: 0;
+  }
+  .join-text {
+    button {
+      width: 200px;
+      left: 137px;
+      top: 952px;
+      font-size: 14px;
+      gap: 10px;
+      height: 38px;
+    }
+  }
+  .weekly {
+    width: 458px;
+    height: 623px;
+  }
+  .join-box {
+    img {
+      max-width: 458px;
+      height: 332px;
+    }
+  }
+  .join-text {
+    h1 {
+      font-size: 43px;
+      max-width: 362px;
+      max-height: 106px;
+    }
+  }
+  .join-text {
+    p {
+      font-size: 23px;
+      max-width: 412px;
+      max-height: 58px;
+    }
+  }
+  .join-text {
+    input {
+      width: 458px;
+      height: 80px;
+    }
+  }
+  .join-text input::placeholder {
+    text-align: center;
+    font-size: 18px;
+  }
+  .join-text {
+    button {
+      width: 458px;
+      left: 0px;
+      top: 640px;
+      font-size: 20px;
+      gap: 10px;
+      height: 80px;
+      img {
+        width: 40px;
+      }
+    }
+  }
+  .join-box {
+    width: 100%;
+    max-height: 620px;
+    padding-bottom: 119px;
+  }
 }
 @media (max-width: 525px) {
   .work-title h1 {
@@ -2237,5 +2388,46 @@
     width: 206px;
     font-size: 13px;
     line-height: 19px;
+  }
+  .join-box {
+    img {
+      max-width: 380px;
+      height: 289px;
+    }
+  }
+  .join-text {
+    h1 {
+      font-size: 34px;
+      max-width: 280px;
+      max-height: 106px;
+    }
+  }
+  .join-text {
+    p {
+      font-size: 18px;
+      max-width: 324px;
+      max-height: 49px;
+    }
+  }
+  .join-text {
+    input {
+      width: 359px;
+      height: 70px;
+    }
+  }
+  .weekly {
+    width: 360px;
+    height: 1030px;
+  }
+  .join-box {
+    width: 100%;
+    max-height: 490px;
+  }
+  .join-text {
+    button {
+      width: 359px;
+      top: 502px;
+      height: 70px;
+    }
   }
 }
